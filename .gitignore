@@ -20,3 +20,9 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore synthetic data files (we can always regenerate these)
+*.csv
+
+# Future-proofing: Ignore environment variables like API keys
+.env
